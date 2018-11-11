@@ -1,0 +1,111 @@
+a {
+text-decoration: none;
+color: #e2c578;
+-webkit-transition: color .2s linear;
+   -moz-transition: color .2s linear;
+-ms-transition: color .2s linear;
+-o-transition: color .2s linear;
+transition: color .2s linear;
+}
+
+a:hover,a:focus {
+color: #000;
+outline: none;
+text-decoration: none;
+}
+
+cite {
+font-style: normal;
+}
+
+
+.preloader{
+  position:fixed;
+  top:0;
+  width:100%;
+  height:100%;
+  background:white;
+  z-index:999;
+}
+ 
+.preloader .item{
+  position:absolute;
+  width:50px;
+  height:50px;
+  left:50%;
+  top:50%;
+  margin-left:-25px;
+  margin-top:-25px;
+} 
+
+
+body
+{
+  color: black;
+  text-align: center;
+font-family:"Century Gothic", CenturyGothic, AppleGothic;
+letter-spacing: 1px;
+}
+
+h1 {
+color: black;
+font-size: 50px;
+}
+p {
+  color: black;
+}
+ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+ul li {
+float: left;
+width: 200px;
+height: 40px;
+background-color: white;
+opacity: .9;
+line-height: 40px;
+text-align: center;
+font-size: 20px; 
+}
+ul li {
+text-decoration: none;
+color: black;
+display: block;
+}
+ul li a:hover {
+background-color: goldenrod;
+}
+ul li ul li {
+display: none;
+background-color: lightyellow;
+}
+ul li:hover ul li {
+display: block;
+}
+img {
+	margin-left: 800px;
+	margin-top: -10px;
+}
+
+.biographie{
+	text-align: justify;
+	margin-top: -420px;
+	margin-right: 570px;
+	margin-left: 90px;
+}
+
+.footer {
+	    background-color:grey;
+		padding: 30px;
+		text-align: center;
+	font-size: 20px;
+		margin-top: 20px;
+}
+#PagePrécédente{
+	text-align: left;
+	}
+#PageSuivante{
+	text-align: right;
+	}
